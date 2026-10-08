@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.controller.LoginController">
+   <children>
+      <Rectangle height="354.0" layoutY="55.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="600.0">
+         <fill>
+            <LinearGradient cycleMethod="REFLECT" endX="0.8787878498886571" endY="0.39015152779492457" startX="0.32575759020718664" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.29948264360427856" blue="0.36000001430511475" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Rectangle>
+      <Rectangle arcWidth="500.0" height="76.0" layoutY="-12.0" stroke="TRANSPARENT" strokeMiterLimit="0.0" strokeType="OUTSIDE" strokeWidth="0.0" width="600.0" />
+      <Label layoutX="213.0" layoutY="1.0" prefHeight="64.0" prefWidth="174.0" text="Feisbuk">
+         <font>
+            <Font name="Candara Bold" size="53.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.9734848186825261">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.09456140547990799" blue="0.5157894492149353" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" blue="0.943965494632721" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField layoutX="200.0" layoutY="151.0" prefHeight="30.0" prefWidth="200.0" />
+      <TextField layoutX="200.0" layoutY="217.0" prefHeight="30.0" prefWidth="200.0" />
+      <Button fx:id="btnLogin" layoutX="200.0" layoutY="276.0" mnemonicParsing="false" onAction="#iniciarSesion" prefHeight="30.0" prefWidth="200.0" styleClass="btn" stylesheets="@../sources/styles.css" text="Logearse" textFill="#d500ff">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="200.0" layoutY="129.0" prefHeight="18.0" prefWidth="63.0" text="Usuario" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="200.0" layoutY="195.0" prefHeight="18.0" prefWidth="63.0" text="Clave" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
